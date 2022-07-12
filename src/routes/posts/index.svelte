@@ -27,13 +27,14 @@
 <!-- use the rich-text-renderer to render the HTML -->
 {#each posts as content}
 	<!-- content here -->
-	<div>{@html astToHtmlString({ content })}</div>
 	<hr />
+	<div class="prose lg:prose-xl">{@html astToHtmlString({ content })}</div>
 {/each}
 
 <!-- <div>{@html html}</div> -->
 <style>
-	h1 {
-		font-size: 2rem;
+	hr {
+		border-width: 1rem;
+		border-color: aquamarine;
 	}
 </style>

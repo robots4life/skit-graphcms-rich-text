@@ -3,3 +3,5 @@ npm install graphql --save-dev --verbose
 npm install graphql-request --save-dev --verbose
 
 npm install @graphcms/rich-text-html-renderer --save-dev --verbose
+
+npm install @tailwindcss/typography --save-dev --verbose
