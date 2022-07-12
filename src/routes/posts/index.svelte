@@ -8,14 +8,10 @@
 
 	// const content = postsRichTextData.posts[0].richText.raw;
 
-	const content = postsRichTextData.posts.map((element) => {
+	const posts = postsRichTextData.posts.map((element) => {
 		return element.richText.raw;
 	});
-	console.log(content);
-
-	const html = astToHtmlString({
-		content
-	});
+	console.log(posts);
 </script>
 
 <h1 class="text-4xl py-4">Welcome to SvelteKit</h1>
@@ -29,8 +25,13 @@
 
 <!-- 8. -->
 <!-- use the rich-text-renderer to render the HTML -->
-<div>{@html html}</div>
+{#each posts as content}
+	<!-- content here -->
+	<div>{@html astToHtmlString({ content })}</div>
+	<hr />
+{/each}
 
+<!-- <div>{@html html}</div> -->
 <style>
 	h1 {
 		font-size: 2rem;
