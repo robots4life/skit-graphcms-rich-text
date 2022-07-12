@@ -16,7 +16,7 @@
 
 <h1 class="text-4xl py-4">Welcome to SvelteKit</h1>
 <p class="text-2xl py-3">
-	Go back <a class="text-red-400" href="/">to the Home Page</a> to see a single post
+	Go back <a sveltekit:prefetch class="text-red-400" href="/">to the Home Page</a> to see a single post
 </p>
 
 <!-- 7. -->

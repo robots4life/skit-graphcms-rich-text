@@ -20,7 +20,7 @@
 
 <h1 class="text-4xl py-4">Welcome to SvelteKit</h1>
 <p class="text-2xl py-3">
-	Visit <a class="text-red-400" href="/posts">the Posts Page</a> to see 2 rendered posts in action
+	Visit <a sveltekit:prefetch class="text-red-400" href="/posts">the Posts Page</a> to see 2 rendered posts in action
 </p>
 
 <!-- 7. -->
