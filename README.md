@@ -4,6 +4,21 @@
 -   GraphCMS
 -   Rich Text Data
 
+### Create Post model with Rich Text field
+
+<img src="/static/images/Screenshot_20220712_114145.png">
+<br>
+
+### Create content under the Post model
+
+<img src="/static/images/Screenshot_20220712_114531.png">
+<br>
+
+### Create the query for the raw data from the Rich Text field of the Post model
+
+<img src="/static/images/Screenshot_20220712_114724.png">
+<br>
+
 ## Index Page `/`
 
 1.  https://github.com/robots4life/skit-graphcms-rich-text/blob/master/src/routes/index.js
