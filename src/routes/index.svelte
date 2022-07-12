@@ -25,3 +25,9 @@
 <!-- 8. -->
 <!-- use the rich-text-renderer to render the HTML -->
 <div>{@html html}</div>
+
+<style>
+	h1 {
+		font-size: 2rem;
+	}
+</style>
