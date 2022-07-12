@@ -31,7 +31,6 @@
 	<div class="prose lg:prose-xl">{@html astToHtmlString({ content })}</div>
 {/each}
 
-<!-- <div>{@html html}</div> -->
 <style>
 	hr {
 		border-width: 1rem;

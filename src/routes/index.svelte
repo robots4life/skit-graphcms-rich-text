@@ -6,12 +6,12 @@
 	// https://github.com/hygraph/rich-text/tree/main/packages/html-renderer#-usageexamples
 	import { astToHtmlString } from '@graphcms/rich-text-html-renderer';
 
-	// const content = postsRichTextData.posts[0].richText.raw;
+	const content = postsRichTextData.posts[0].richText.raw;
 
-	const content = postsRichTextData.posts.map((element) => {
-		console.log(element.richText.raw);
-		return element.richText.raw;
-	});
+	// const content = postsRichTextData.posts.map((element) => {
+	// 	console.log(element.richText.raw);
+	// 	return element.richText.raw;
+	// });
 
 	const html = astToHtmlString({
 		content
