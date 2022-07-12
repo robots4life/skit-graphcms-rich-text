@@ -2,6 +2,9 @@
 	// 6.
 	// finally make the "postsRichTextData" you return to the body available in the frontend of your application
 	export let postsRichTextData;
+
+	// https://github.com/hygraph/rich-text/tree/main/packages/html-renderer#-usageexamples
+	import { astToHtmlString } from '@graphcms/rich-text-html-renderer';
 </script>
 
 <h1 class="text-4xl py-4">Welcome to SvelteKit</h1>
