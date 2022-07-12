@@ -5,6 +5,12 @@
 
 	// https://github.com/hygraph/rich-text/tree/main/packages/html-renderer#-usageexamples
 	import { astToHtmlString } from '@graphcms/rich-text-html-renderer';
+
+	const content = postsRichTextData.posts[0].richText.raw;
+
+	const html = astToHtmlString({
+		content
+	});
 </script>
 
 <h1 class="text-4xl py-4">Welcome to SvelteKit</h1>
@@ -15,3 +21,7 @@
 <!-- 7. -->
 <!-- show the postsRichTextData data -->
 {JSON.stringify(postsRichTextData, null, 2)}
+
+<!-- 8. -->
+<!-- use the rich-text-renderer to render the HTML -->
+<div>{@html html}</div>
